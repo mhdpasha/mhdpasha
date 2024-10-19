@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Web App Engineer, loves to do and build things digitally.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2024, I decided to go all in on web development after wrapping up an internship as a Full Stack Developer. Over the years, I’ve worked on some projects like Corsa GRM for hotel departments and Arsene Project for animation web components. Gratefully, i’ve won a few competitions along the way. Currently working an exciting project called BNSP-LSP 40, that automates school and business processes. We'll see where this journey takes me next.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -29,8 +29,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "pashaalbara01@gmail.com",
-    tel: "+62 857 7751 1106",
+    email: "work.mhdpasha@gmail.com",
+    tel: "+6285777511106",
     social: {
       GitHub: {
         name: "GitHub",
@@ -61,7 +61,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:pashaalbara01@gmail.com",
+        url: "mailto:work.mhdpasha@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -74,13 +74,13 @@ export const DATA = {
       company: "Redtop Hotel & Convention Center",
       href: "#detail",
       badges: [],
-      location: "Full time",
+      location: "Contract",
       title: "Full Stack Developer",
       logoUrl: "/redtop.png",
       start: "Jul 2024",
       end: "Sep 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Built Corsa GRM for managing hotel requests for each divisions. Connected within local network in the building.",
     },
     {
       company: "Agung Toyota Automandiri",
