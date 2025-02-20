@@ -123,12 +123,13 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Unfortunately uncheckable for now, will designed it really soon :D
+                  My recent works and project that i've built in teams, and individually. Feel free to check them out!
                 </p>
               </div>
             </div>
           </BlurFade>
-          {/* <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
@@ -147,7 +148,8 @@ export default function Page() {
                 />
               </BlurFade>
             ))}
-          </div> */}
+          </div>
+
         </div>
       </section>
       {/* <section id="hackathons">
@@ -220,7 +222,7 @@ export default function Page() {
                 >
                   work.mhdpasha@gmail.com
                 </Link>
-                . Would be very glad to connect :D
+                . Would be very glad to connect
               </p>
             </div>
           </BlurFade>
