@@ -173,35 +173,83 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "AWS Sagasitas C3 Website Development",
-      dates: "May 19th - 21st, 2017",
-      location: "Province - DKI Jakarta",
-      description: "Improved PocketDoc and submitted to online competition",
+      title: "T8chnofest Creative Static Website Development",
+      dates: "August 2023",
+      location: "SMA Negeri 8 Jakarta",
+      description: "Won 1st place in a creative static website development competition. Refined previous arsene with lots of improvement, deployment starts from here",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
-      win: "Top 10 Finalist | Honourable Mention",
+        "Logo_SMAN_8_Jakarta.webp",
+      win: "1st Place",
       links: [
         {
-          title: "Medium Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/dillionverma/pocketdoc-react-native",
         },
+      ]
+    },
+    {
+      title: "LKS Cyber Security Jakarta Timur",
+      dates: "August 2023",
+      location: "Pemerintah Provinsi DKI Jakarta",
+      description: "Secured 2nd place in the LKS Cyber Security competition at the city level by identifying vulnerabilities, implementing secure protocols, and fortifying systems against potential threats. This competition pushed me out of my comfort zone, but through persistence and problem-solving, I successfully tackled complex cybersecurity challenges. Alhamdulillah, I nailed it.",
+      image:
+        "Logo_LKS.webp",
+      win: "2nd Place",
+      links: [
         {
-          title: "Devpost",
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/mhdpasha/cyber",
+        },
+      ]
+    },
+    {
+      title: "AWS Sagasitas Cloud Computing Club Competition",
+      dates: "March 2023",
+      location: "DKI Jakarta",
+      description: "Achieved 2nd place in a cloud computing competition hosted by AWS and the Jakarta government. Built Arsene as an animated web-based component.",
+      image:
+        "aws_logo.webp",
+      win: "2nd Place",
+      links: [
+        {
+          title: "Article",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
+          href: "https://smknegeri40-jkt.sch.id/juara-2-lomba-web-development-aws-2022/",
         },
         {
           title: "YouTube",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
+          href: "https://www.youtube.com/watch?v=6i0wIh2xHXw",
         },
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/dillionverma/pocketdoc-react-native",
         },
-      ],
+      ]
     },
+    {
+      title: "IT Expo Website Development Competition",
+      dates: "November 2021",
+      location: "Universitas Negeri Jakarta (UNJ)",
+      description: "Won 3rd place in a national website development competition Providing a medical website that handle reservation, chats, online shopping, and many more.",
+      image:
+        "UNJ_logo.webp",
+      win: "3rd Place",
+      links: [
+        {
+          title: "Article",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://smknegeri40-jkt.sch.id/prestasi/",
+        },
+        {
+          title: "YouTube",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=_3ywM7-ktPw",
+        },
+      ]
+    }
   ],
 } as const;
