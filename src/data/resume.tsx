@@ -11,7 +11,7 @@ export const DATA = {
     "Web App Engineer, loves to do and build things digitally.",
   summary:
     "At the end of 2024, I decided to go all in on web development after wrapping up an internship as a Full Stack Developer. Over the years, I’ve worked on some projects like Corsa GRM for hotel departments and Arsene Project for animation web components. Gratefully, i’ve won a few competitions along the way. Currently working an exciting project called BNSP-LSP 40, that automates school and business processes. We'll see where this journey takes me next.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "React",
     "Next.js",
@@ -76,7 +76,7 @@ export const DATA = {
       badges: [],
       location: "Contract",
       title: "Full Stack Developer",
-      logoUrl: "/redtop.png",
+      logoUrl: "/redtop.webp",
       start: "Jul 2024",
       end: "Sep 2024",
       description:
@@ -88,7 +88,7 @@ export const DATA = {
       badges: [],
       location: "Hybrid",
       title: "Full Stack Developer",
-      logoUrl: "/agung-toyota.jpg",
+      logoUrl: "/agung-toyota.webp",
       start: "Mar 2023",
       end: "Sep 2023",
       description:
@@ -100,7 +100,7 @@ export const DATA = {
       school: "Universitas Terbuka",
       href: "https://www.ut.ac.id",
       degree: "Bachelor's Degree of Applied Science, Sistem Informasi",
-      logoUrl: "/ut.png",
+      logoUrl: "/ut.webp",
       start: "2024",
       end: "Present",
     },
@@ -108,7 +108,7 @@ export const DATA = {
       school: "SMKN 40 Jakarta",
       href: "https://smknegeri40-jkt.sch.id/",
       degree: "Highschool Diploma, Rekayasa Perangkat Lunak",
-      logoUrl: "/smkn-40.png",
+      logoUrl: "/smkn-40.webp",
       start: "2021",
       end: "2024",
     },
