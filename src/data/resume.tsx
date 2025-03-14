@@ -182,6 +182,11 @@ export const DATA = {
       win: "1st Place",
       links: [
         {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://smknegeri40-jkt.sch.id/juara-2-lomba-web-development-aws-2022/",
+        },
+        {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/dillionverma/pocketdoc-react-native",
