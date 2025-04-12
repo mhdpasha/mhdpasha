@@ -30,14 +30,16 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <BlurFade delay={BLUR_FADE_DELAY}>
-                <Link href={'/cv.pdf'} target={'_blank'} className="me-5">
+                <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link href={'/cv.pdf'} target={'_blank'}>
                   <InteractiveHoverButton>CV Review</InteractiveHoverButton>
-                </Link>
-                <Link href={'/blog'}>
+                  </Link>
+                  <Link href={'/blog'}>
                   <InteractiveHoverButton>Personal Blog</InteractiveHoverButton>
-                </Link>
-              </BlurFade>
+                  </Link>
+                </div>
+                </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
