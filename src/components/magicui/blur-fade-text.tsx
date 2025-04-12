@@ -16,6 +16,9 @@ interface BlurFadeTextProps {
   delay?: number;
   yOffset?: number;
   animateByCharacter?: boolean;
+
+  onClick?: () => void;
+  style?: React.CSSProperties;
 }
 const BlurFadeText = ({
   text,

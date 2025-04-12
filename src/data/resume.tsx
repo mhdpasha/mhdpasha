@@ -8,7 +8,7 @@ export const DATA = {
   location: "Jakarta, ID",
   locationLink: "https://www.google.com/maps/place/jakarta",
   description:
-    "Web App Engineer, loves to do and build things digitally.",
+    "Full Stack Web Artisan crafting interactive digital experiences.",
   summary:
     "At the end of 2024, I decided to go all in on web development after wrapping up an internship as a Full Stack Developer. Over the years, I’ve worked on some projects like Corsa GRM for hotel departments and Arsene Project for animation web components. Gratefully, i’ve won a few competitions along the way. Currently working an exciting project called BNSP-LSP 40, that automates school and business processes. We'll see where this journey takes me next.",
   avatarUrl: "/me.webp",

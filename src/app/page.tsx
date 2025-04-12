@@ -1,6 +1,8 @@
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
+import ClientBlurFadeText from "@/components/client-blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -24,11 +26,19 @@ export default function Page() {
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[1]} 👋`}
               />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+              <ClientBlurFadeText
+                className="max-w-[600px] md:text-xl mb-5"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <Link href={'/cv.pdf'} target={'_blank'} className="me-5">
+                  <InteractiveHoverButton>CV Review</InteractiveHoverButton>
+                </Link>
+                <Link href={'/blog'}>
+                  <InteractiveHoverButton>Personal Blog</InteractiveHoverButton>
+                </Link>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
