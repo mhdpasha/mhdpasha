@@ -32,7 +32,7 @@ export default function Page() {
               />
                 <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link href={'/cv.pdf'} target={'_blank'}>
+                  <Link href={'https://cdn.jsdelivr.net/gh/mhdpasha/cdn@2a07392712c6a2aabfb05cba688f99a06a841635/cv.pdf'} target={'_blank'}>
                   <InteractiveHoverButton>CV Review</InteractiveHoverButton>
                   </Link>
                   <Link href={'/blog'}>
